@@ -1,0 +1,38 @@
+.inputField_container{
+    display: flex;
+    column-gap: 20px;
+}
+
+.inputField_heading{
+    font-size: 14px;
+    color: hsl(0, 1%, 44%);
+    font-weight:600;
+    margin-bottom: 5px;
+}
+
+.inputField_input{
+    font-weight: 800;
+    border: solid hsl(0, 0%, 86%) 1px;
+    border-radius: 5px;
+    padding: 5px 10px;
+    width: 120px;
+    font-size: 32px;
+}
+
+.buttonSection{
+    display: flex;
+    align-items: center;
+}
+
+.buttonSection_line{
+    width: 100%;
+    height: 2px;
+    background-color: hsl(0, 0%, 86%);
+}
+
+.buttonSection_button{
+    background-color: hsl(259, 100%, 65%);
+    border-radius: 100px;
+    padding: 20px;
+    border: 0;
+}
