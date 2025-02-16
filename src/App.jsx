@@ -8,7 +8,10 @@ function App() {
 
   return (
     <>
-      <DisplayDate />
+      <div className='mainContainer'>
+        <InputFields />
+        <DisplayDate />
+      </div>
     </>
   )
 }
