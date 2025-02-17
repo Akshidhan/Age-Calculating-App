@@ -50,6 +50,8 @@
 .buttonSection{
     display: flex;
     align-items: center;
+    height: 100px;
+    position: relative;
 }
 
 .buttonSection_line{
@@ -64,6 +66,37 @@
     padding: 20px;
     border: 0;
     cursor: pointer;
+    position: absolute;
+    right: 0;
+    width: fit-content;
+}
+
+@media only screen and (max-width: 830px) {
+    .buttonSection_button{
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .buttonSection{
+        margin: 10px 0;
+    }
+}
+
+@media only screen and (max-width: 670px) {
+    .display_section{
+        font-size: 55px !important;
+        row-gap: 0;
+        margin: 0;
+    }
+
+    .inputField_container{
+        justify-content: center;
+    }
+
+    .inputField_input{
+        width: 70px;
+        font-size: 25px;
+    }
 }
 
 .buttonSection_button:hover{
@@ -72,13 +105,19 @@
 
 /* display date section */
 
+.display{
+    display: flex;
+    flex-direction: column;
+    line-height: 80px;
+}
+
 .display_section{
     display: flex;
-    margin: -20px 0;
     font-size: 70px;
     font-weight: 800;
     font-style: italic;
     width: 100%;
+    column-gap: 15px;
 }
 
 .display_section:nth-child(1){
