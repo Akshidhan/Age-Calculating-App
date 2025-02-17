@@ -1,6 +1,7 @@
 {
   "name": "age-calculator-app-main",
   "private": true,
+  "homepage": "https://Akshidhan.github.io/age-calculator-app-main",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
